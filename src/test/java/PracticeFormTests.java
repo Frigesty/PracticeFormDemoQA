@@ -10,7 +10,6 @@ public class PracticeFormTests {
 
     @BeforeAll
     static void beforeAll(){
-        Configuration.holdBrowserOpen = true;
         Configuration.pageLoadStrategy = "eager";
     }
 
